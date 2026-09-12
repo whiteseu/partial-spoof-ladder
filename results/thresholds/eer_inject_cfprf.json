@@ -1,0 +1,22 @@
+{
+  "cue": "seg",
+  "baseline_eer_percent": 7.29624019629827,
+  "baseline_frames": 592167,
+  "injected": {
+    "C_BF": {
+      "frames": 219472,
+      "eer_percent": 7.15243550358049,
+      "delta_points": -0.1438046927177803
+    },
+    "S_BF": {
+      "frames": 219472,
+      "eer_percent": 7.8327678590825816,
+      "delta_points": 0.5365276627843114
+    },
+    "D_BF": {
+      "frames": 219472,
+      "eer_percent": 7.830100010331714,
+      "delta_points": 0.5338598140334438
+    }
+  }
+}

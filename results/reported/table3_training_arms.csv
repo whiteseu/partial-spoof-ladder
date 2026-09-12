@@ -1,0 +1,7 @@
+arm,achieved_span_frames,EER_percent,EER_sd,delta_D_ms,delta_D_sd,delta_S_ms,delta_S_sd
+original,,7.48,0.59,66.5,25.9,56.9,42.9
+counter,,6.99,0.2,9.3,11.0,1.9,9.7
+coupled,1.00,7.51,0.47,9.5,6.3,8.1,8.0
+coupled,3.00,7.6,1.14,27.4,13.5,23.3,17.1
+coupled,5.00,7.41,0.51,41.0,5.9,34.5,9.4
+coupled,8.81,7.41,0.5,73.7,4.3,62.8,8.6
