@@ -4,7 +4,7 @@ Companion material for *Auditing Partial-Spoof Localization with
 Authenticity-Preserving Edits*.
 
 The paper asks whether a frame-level partial-spoof localizer responds to
-source authenticity or to the splicing edit that a splice-built corpus uses to
+source authenticity or to the splicing edit that a splice-based corpus uses to
 create it. It edits bona fide audio in ways that leave every mask label
 unchanged, and moves training labels while holding the training waveform
 byte-identical.
@@ -21,7 +21,7 @@ are released checkpoints from their original authors.
 |---|---|---|
 | `construction_join.py` | `src/build_ladder_corpus.py` | Sec. 2.1. The join used for every condition and crossfade width. The fade weights are complementary and a same-source join takes gain exactly 1.0, which is why the self-rejoin is an identity at every width and scores bit-identically. |
 | `readout_region_rule.py` | `analysis/r7_readout.py` | Sec. 2.2. `offset = hop*frame + delta - boundary_ms`; frames inside the crossfade region `abs(offset) <= width/2` are dropped from **both** conditions; the measured side is `offset >= 0`. `T(x)` is flagged duration on that side. |
-| `label_intervention.py` | `analysis/sal_counter.py` | Sec. 4.5. The excision shared byte for byte by the `counter` and `coupled` arms. The cut is a pure function of `(seed, utt_id)` through `crc32`, never of worker scheduling, so the two arms differ only in the label at the join. The assertions make "every excised frame was bona fide" a checked claim rather than an assumption. |
+| `label_intervention.py` | `analysis/sal_counter.py` | Sec. 4.5. The excision shared byte for byte by the `counter` and `coupled` configurations. The cut is a pure function of `(seed, utt_id)` through `crc32`, never of worker scheduling, so the two configurations differ only in the label at the join. The assertions make "every excised frame was bona fide" a checked claim rather than an assumption. |
 
 ## `manifests/`
 
@@ -44,7 +44,7 @@ subsample before any threshold was frozen.
 Table 1 with the bootstrap interval endpoints as columns, `table2_join_state.csv`
 is Table 2 with the significance stars as a `*_excludes_zero` flag,
 `table3_training_arms.csv` is Table 3, and `sal_finetune_per_seed.csv` is the
-released-system fine-tuning of Sec. 4.5 per seed and arm, carried at two
+released-system fine-tuning of Sec. 4.5 per seed and configuration, carried at two
 decimals rather than the one the paper prints.
 
 **`thresholds/`** — the frozen operating points of Sec. 3 and the equal-error
@@ -61,14 +61,24 @@ bootstrap intervals. `adjudication_indomain*` are the in-domain values;
 collapse to near zero (0.53 -> 0.00 and 0.74 -> 0.03) while CFPRF's response
 grows.
 
-**`training_arms/`** — per-seed outputs, one file per arm per seed, no
+**`training_arms/`** — per-seed outputs, one file per configuration per seed, no
 aggregation. `localizer_5seed/` is the localizer we train (frozen WavLM front
-end, BiLSTM head) over five seeds, arms `original`, `counter` and `coupled` at
+end, BiLSTM head) over five seeds, configurations `original`, `counter` and `coupled` at
 four requested label spans: the rows of Table 3 and the dose slope of Fig. 3.
 `sal_finetune/` is SAL fine-tuned from its released weights over three seeds,
-arms `plain`, `counter` and `coupled`: the +50.5 / +44.2 / +122.9 to
+configurations `plain`, `counter` and `coupled`: the +50.5 / +44.2 / +122.9 to
 +8.6 / -4.8 / +24.2 figures of Sec. 4.5 and the 51% / 77% / 37% recoveries.
 File names carry the seed itself (`20260802`-`20260806`).
+
+## `prereg/`
+
+`ood_join_state_2026-08-27.md` is the record behind the sentence in Sec. 4.4
+that the out-of-domain ordering "was specified before scoring": the predicted
+ordering, what would have falsified it, the frozen thresholds and set list, and
+the outcome written afterwards, together with three caveats recorded at the
+same time (the out-of-domain silence cell rests on 29 clean cut points against
+204 in domain; the frozen operating point does not transfer in level; after
+recalibration only CFPRF resolves the strata).
 
 ## Citation
 
