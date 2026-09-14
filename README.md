@@ -21,7 +21,7 @@ are released checkpoints from their original authors.
 |---|---|---|
 | `construction_join.py` | `src/build_ladder_corpus.py` | Sec. 2.1. The join used for every condition and crossfade width. The fade weights are complementary and a same-source join takes gain exactly 1.0, which is why the self-rejoin is an identity at every width and scores bit-identically. |
 | `readout_region_rule.py` | `analysis/r7_readout.py` | Sec. 2.2. `offset = hop*frame + delta - boundary_ms`; frames inside the crossfade region `abs(offset) <= width/2` are dropped from **both** conditions; the measured side is `offset >= 0`. `T(x)` is flagged duration on that side. |
-| `label_intervention.py` | `analysis/sal_counter.py` | Sec. 4.5. The excision shared byte for byte by the `counter` and `coupled` configurations. The cut is a pure function of `(seed, utt_id)` through `crc32`, never of worker scheduling, so the two configurations differ only in the label at the join. The assertions make "every excised frame was bona fide" a checked claim rather than an assumption. |
+| `label_intervention.py` | `analysis/sal_counter.py` | Sec. 4.5. The excision shared byte for byte by the `edit-BF` and `edit-spoof` configurations. The cut is a pure function of `(seed, utt_id)` through `crc32`, never of worker scheduling, so the two configurations differ only in the label at the join. The assertions make "every excised frame was bona fide" a checked claim rather than an assumption. |
 
 ## `manifests/`
 
@@ -63,12 +63,12 @@ grows.
 
 **`training_arms/`** — per-seed outputs, one file per configuration per seed, no
 aggregation. `localizer_5seed/` is the localizer we train (frozen WavLM front
-end, BiLSTM head) over five seeds, configurations `original`, `counter` and `coupled` at
+end, BiLSTM head) over five seeds, configurations `original`, `edit-BF` and `edit-spoof` at
 four requested label spans: the rows of Table 3 and the dose slope of Fig. 3.
 `sal_finetune/` is SAL fine-tuned from its released weights over three seeds,
-configurations `plain`, `counter` and `coupled`: the +50.5 / +44.2 / +122.9 to
+configurations `plain`, `edit-BF` and `edit-spoof`: the +50.5 / +44.2 / +122.9 to
 +8.6 / -4.8 / +24.2 figures of Sec. 4.5 and the 51% / 77% / 37% recoveries.
-File names carry the seed itself (`20260802`-`20260806`).
+File names carry the seed itself (`20260802`-`20260806`). They also carry the earlier internal names for two of the configurations: `counter_*` is `edit-BF` and `coupled_*` is `edit-spoof`.
 
 ## `prereg/`
 
