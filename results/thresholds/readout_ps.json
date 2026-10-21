@@ -1,0 +1,56 @@
+{
+  "cue": "ps20",
+  "threshold": 0.9954373240470886,
+  "eer_percent": 12.038337827592816,
+  "partition": "PartialSpoof eval, bona fide only",
+  "conditions": {
+    "P_BF": {
+      "label": "unedited genuine",
+      "pooled_percent": 0.194,
+      "frames": 55538
+    },
+    "S_BF": {
+      "label": "genuine spliced to genuine",
+      "pooled_percent": 3.476,
+      "frames": 217628
+    },
+    "D_BF": {
+      "label": "genuine, 200 ms excised",
+      "pooled_percent": 3.126,
+      "frames": 217628
+    },
+    "C_BF": {
+      "label": "genuine rejoined to itself",
+      "pooled_percent": 0.196,
+      "frames": 217628
+    },
+    "C_BF_minus_P": {
+      "points": 0.0,
+      "ci": [
+        -0.0,
+        0.0
+      ]
+    },
+    "D_BF_minus_P": {
+      "points": 2.93,
+      "ci": [
+        2.56,
+        3.32
+      ]
+    },
+    "S_BF_minus_P": {
+      "points": 3.28,
+      "ci": [
+        2.8,
+        3.77
+      ]
+    },
+    "S_BF_minus_C_BF": {
+      "points": 3.28,
+      "ci": [
+        2.8,
+        3.77
+      ]
+    }
+  }
+}

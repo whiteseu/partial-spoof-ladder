@@ -1,0 +1,9 @@
+{
+  "threshold": 0.8341407775878906,
+  "eer_percent": 3.236330418895994,
+  "fpr_unedited_percent": 1.9853539462978032,
+  "Delta_D": 60.48,
+  "n_sets_D": 750,
+  "Delta_S": 97.01333333333334,
+  "n_sets_S": 750
+}

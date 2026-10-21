@@ -1,0 +1,201 @@
+statistic,cue,band,width_ms,family,value,ci_low,ci_high
+R,codec,0-19 ms,0,C,0.0214,-0.0497,0.0897
+R,codec,0-19 ms,0,D,-0.2627,-0.3271,-0.1935
+R,codec,0-19 ms,0,S,-0.3351,-0.3976,-0.2671
+R,codec,0-19 ms,20,C,-0.016,-0.0854,0.0533
+R,codec,0-19 ms,20,D,-0.1733,-0.2453,-0.1067
+R,codec,0-19 ms,20,S,-0.208,-0.2747,-0.136
+R,codec,0-19 ms,60,C,0.0053,-0.064,0.0773
+R,codec,0-19 ms,60,D,-0.072,-0.144,-0.0027
+R,codec,0-19 ms,60,S,-0.1413,-0.2107,-0.0693
+R,codec,0-19 ms,160,C,0.0134,-0.0562,0.0897
+R,codec,0-19 ms,160,D,-0.067,-0.1359,0.004
+R,codec,0-19 ms,160,S,-0.0885,-0.1616,-0.0174
+R,codec,20-39 ms,0,C,0.0213,-0.0507,0.0907
+R,codec,20-39 ms,0,D,-0.168,-0.2373,-0.0987
+R,codec,20-39 ms,0,S,-0.272,-0.3387,-0.2027
+R,codec,20-39 ms,20,C,0.0053,-0.064,0.0773
+R,codec,20-39 ms,20,D,-0.0267,-0.0987,0.0453
+R,codec,20-39 ms,20,S,-0.1387,-0.2054,-0.064
+R,codec,20-39 ms,60,C,0.0533,-0.0187,0.1253
+R,codec,20-39 ms,60,D,0.04,-0.032,0.1121
+R,codec,20-39 ms,60,S,-0.0427,-0.1093,0.0293
+R,codec,20-39 ms,160,C,0.0507,-0.0213,0.1253
+R,codec,20-39 ms,160,D,0.0027,-0.0693,0.0747
+R,codec,20-39 ms,160,S,-0.024,-0.096,0.0453
+E,codec,0-19 ms,0,C,0.0,0.0,0.0
+E,codec,0-19 ms,0,D,0.6086,0.5487,0.6653
+E,codec,0-19 ms,0,S,0.63,0.5743,0.6836
+E,codec,0-19 ms,20,C,-0.0268,-0.0806,0.0227
+E,codec,0-19 ms,20,D,0.2064,0.1329,0.2744
+E,codec,0-19 ms,20,S,0.2788,0.2118,0.3495
+E,codec,0-19 ms,60,C,0.008,-0.0668,0.0802
+E,codec,0-19 ms,60,D,0.0777,0.008,0.1505
+E,codec,0-19 ms,60,S,0.1609,0.0909,0.2333
+E,codec,0-19 ms,160,C,0.0214,-0.0508,0.0926
+E,codec,0-19 ms,160,D,0.0617,-0.0094,0.1349
+E,codec,0-19 ms,160,S,0.0643,-0.004,0.1364
+E,codec,20-39 ms,0,C,0.0,0.0,0.0
+E,codec,20-39 ms,0,D,0.3147,0.2453,0.3813
+E,codec,20-39 ms,0,S,0.328,0.2613,0.3921
+E,codec,20-39 ms,20,C,0.0507,-0.0013,0.1027
+E,codec,20-39 ms,20,D,0.1173,0.048,0.1894
+E,codec,20-39 ms,20,S,0.1253,0.0533,0.1974
+E,codec,20-39 ms,60,C,0.0747,0.0,0.144
+E,codec,20-39 ms,60,D,0.112,0.04,0.1867
+E,codec,20-39 ms,60,S,0.08,0.0107,0.152
+E,codec,20-39 ms,160,C,0.0667,-0.008,0.1413
+E,codec,20-39 ms,160,D,0.0907,0.0187,0.16
+E,codec,20-39 ms,160,S,0.1013,0.0267,0.1707
+R,trajectory,0-19 ms,0,C,0.0133,-0.056,0.088
+R,trajectory,0-19 ms,0,D,0.0293,-0.04,0.1013
+R,trajectory,0-19 ms,0,S,-0.024,-0.0961,0.0454
+R,trajectory,0-19 ms,20,C,-0.0054,-0.0792,0.0687
+R,trajectory,0-19 ms,20,D,0.0777,0.0107,0.1517
+R,trajectory,0-19 ms,20,S,-0.0268,-0.0953,0.0441
+R,trajectory,0-19 ms,60,C,-0.0322,-0.1022,0.0415
+R,trajectory,0-19 ms,60,D,0.0134,-0.0588,0.0843
+R,trajectory,0-19 ms,60,S,-0.0349,-0.1078,0.0388
+R,trajectory,0-19 ms,160,C,-0.0373,-0.1067,0.0293
+R,trajectory,0-19 ms,160,D,0.008,-0.0613,0.0747
+R,trajectory,0-19 ms,160,S,-0.08,-0.1547,-0.0133
+R,trajectory,20-39 ms,0,C,-0.0133,-0.0827,0.0613
+R,trajectory,20-39 ms,0,D,-0.112,-0.1813,-0.0427
+R,trajectory,20-39 ms,0,S,-0.0507,-0.1227,0.0134
+R,trajectory,20-39 ms,20,C,-0.032,-0.1014,0.04
+R,trajectory,20-39 ms,20,D,-0.0533,-0.1253,0.016
+R,trajectory,20-39 ms,20,S,-0.0373,-0.1067,0.0347
+R,trajectory,20-39 ms,60,C,-0.016,-0.088,0.0533
+R,trajectory,20-39 ms,60,D,0.016,-0.0534,0.0933
+R,trajectory,20-39 ms,60,S,-0.0267,-0.0987,0.048
+R,trajectory,20-39 ms,160,C,-0.016,-0.0853,0.056
+R,trajectory,20-39 ms,160,D,-0.0453,-0.1147,0.0267
+R,trajectory,20-39 ms,160,S,-0.088,-0.16,-0.0187
+E,trajectory,0-19 ms,0,C,0.0,0.0,0.0
+E,trajectory,0-19 ms,0,D,0.832,0.7893,0.8693
+E,trajectory,0-19 ms,0,S,0.8827,0.8479,0.912
+E,trajectory,0-19 ms,20,C,-0.0201,-0.0711,0.0295
+E,trajectory,0-19 ms,20,D,0.6729,0.6178,0.7239
+E,trajectory,0-19 ms,20,S,0.7105,0.6595,0.7617
+E,trajectory,0-19 ms,60,C,-0.008,-0.0817,0.0591
+E,trajectory,0-19 ms,60,D,0.4692,0.4048,0.5294
+E,trajectory,0-19 ms,60,S,0.4826,0.4186,0.5448
+E,trajectory,0-19 ms,160,C,0.04,-0.0347,0.112
+E,trajectory,0-19 ms,160,D,0.3227,0.2533,0.3893
+E,trajectory,0-19 ms,160,S,0.3387,0.2693,0.4053
+E,trajectory,20-39 ms,0,C,0.0,0.0,0.0
+E,trajectory,20-39 ms,0,D,0.6613,0.6053,0.712
+E,trajectory,20-39 ms,0,S,0.7333,0.6827,0.784
+E,trajectory,20-39 ms,20,C,0.02,-0.032,0.0733
+E,trajectory,20-39 ms,20,D,0.5253,0.464,0.5893
+E,trajectory,20-39 ms,20,S,0.496,0.4293,0.5573
+E,trajectory,20-39 ms,60,C,-0.0107,-0.0853,0.0561
+E,trajectory,20-39 ms,60,D,0.304,0.2373,0.3707
+E,trajectory,20-39 ms,60,S,0.328,0.2613,0.3921
+E,trajectory,20-39 ms,160,C,-0.0187,-0.0933,0.0534
+E,trajectory,20-39 ms,160,D,0.2453,0.1733,0.3147
+E,trajectory,20-39 ms,160,S,0.2853,0.2187,0.3547
+R,codec,0-19 ms,pooled,1 processing      C - P,-0.015,-0.0177,0.0301
+R,codec,0-19 ms,pooled,2 excision        D - C,0.1295,0.0566,0.162
+R,codec,0-19 ms,pooled,3 source switch   S - C,0.1793,0.1097,0.2085
+R,codec,20-39 ms,pooled,1 processing      C - P,0.0041,-0.0126,0.0555
+R,codec,20-39 ms,pooled,2 excision        D - C,0.0265,-0.0215,0.0698
+R,codec,20-39 ms,pooled,3 source switch   S - C,0.0858,0.0191,0.1324
+E,codec,0-19 ms,pooled,1 processing      C - P,-0.0059,-0.0123,0.0265
+E,codec,0-19 ms,pooled,2 excision        D - C,0.2153,0.1531,0.2495
+E,codec,0-19 ms,pooled,3 source switch   S - C,0.2602,0.1971,0.2959
+E,codec,20-39 ms,pooled,1 processing      C - P,0.0288,-0.0039,0.0648
+E,codec,20-39 ms,pooled,2 excision        D - C,0.101,0.065,0.1337
+E,codec,20-39 ms,pooled,3 source switch   S - C,0.1006,0.06,0.143
+R,trajectory,0-19 ms,pooled,1 processing      C - P,-0.0072,-0.0153,0.0362
+R,trajectory,0-19 ms,pooled,2 excision        D - C,0.0101,-0.0293,0.0468
+R,trajectory,0-19 ms,pooled,3 source switch   S - C,0.0192,-0.027,0.0507
+R,trajectory,20-39 ms,pooled,1 processing      C - P,-0.0099,-0.0179,0.0341
+R,trajectory,20-39 ms,pooled,2 excision        D - C,0.0375,-0.0125,0.0689
+R,trajectory,20-39 ms,pooled,3 source switch   S - C,0.0314,-0.0159,0.0594
+E,trajectory,0-19 ms,pooled,1 processing      C - P,-0.0025,-0.0115,0.0265
+E,trajectory,0-19 ms,pooled,2 excision        D - C,0.5477,0.4935,0.5783
+E,trajectory,0-19 ms,pooled,3 source switch   S - C,0.5767,0.5245,0.606
+E,trajectory,20-39 ms,pooled,1 processing      C - P,-0.0076,-0.0133,0.0261
+E,trajectory,20-39 ms,pooled,2 excision        D - C,0.4127,0.343,0.4474
+E,trajectory,20-39 ms,pooled,3 source switch   S - C,0.4392,0.3692,0.4725
+M,codec,0-19 ms,0,C,0.0,,
+M,codec,0-19 ms,20,C,0.0066,,
+M,codec,0-19 ms,60,C,-0.0219,,
+M,codec,0-19 ms,160,C,-0.0084,,
+M,codec,0-19 ms,0,D,0.5796,,
+M,codec,0-19 ms,20,D,0.177,,
+M,codec,0-19 ms,60,D,0.0484,,
+M,codec,0-19 ms,160,D,0.0326,,
+M,codec,0-19 ms,0,S,0.6002,,
+M,codec,0-19 ms,20,S,0.2496,,
+M,codec,0-19 ms,60,S,0.1323,,
+M,codec,0-19 ms,160,S,0.0349,,
+M,codec,20-39 ms,0,C,0.0,,
+M,codec,20-39 ms,20,C,0.0309,,
+M,codec,20-39 ms,60,C,0.0461,,
+M,codec,20-39 ms,160,C,0.0382,,
+M,codec,20-39 ms,0,D,0.2864,,
+M,codec,20-39 ms,20,D,0.0877,,
+M,codec,20-39 ms,60,D,0.0832,,
+M,codec,20-39 ms,160,D,0.0618,,
+M,codec,20-39 ms,0,S,0.2992,,
+M,codec,20-39 ms,20,S,0.0966,,
+M,codec,20-39 ms,60,S,0.0502,,
+M,codec,20-39 ms,160,S,0.0717,,
+M,trajectory,0-19 ms,0,C,0.0,,
+M,trajectory,0-19 ms,20,C,-0.0005,,
+M,trajectory,0-19 ms,60,C,-0.0209,,
+M,trajectory,0-19 ms,160,C,0.0113,,
+M,trajectory,0-19 ms,0,D,0.8029,,
+M,trajectory,0-19 ms,20,D,0.6437,,
+M,trajectory,0-19 ms,60,D,0.4396,,
+M,trajectory,0-19 ms,160,D,0.2944,,
+M,trajectory,0-19 ms,0,S,0.8539,,
+M,trajectory,0-19 ms,20,S,0.6807,,
+M,trajectory,0-19 ms,60,S,0.4534,,
+M,trajectory,0-19 ms,160,S,0.3089,,
+M,trajectory,20-39 ms,0,C,0.0,,
+M,trajectory,20-39 ms,20,C,-0.0015,,
+M,trajectory,20-39 ms,60,C,-0.0187,,
+M,trajectory,20-39 ms,160,C,-0.0102,,
+M,trajectory,20-39 ms,0,D,0.6324,,
+M,trajectory,20-39 ms,20,D,0.4961,,
+M,trajectory,20-39 ms,60,D,0.275,,
+M,trajectory,20-39 ms,160,D,0.2169,,
+M,trajectory,20-39 ms,0,S,0.704,,
+M,trajectory,20-39 ms,20,S,0.4667,,
+M,trajectory,20-39 ms,60,S,0.2995,,
+M,trajectory,20-39 ms,160,S,0.2563,,
+R,codec,M_near,shape,C,+0.021,,
+R,codec,M_total,shape,C,+0.091,,
+R,codec,M_near,shape,D,+0.181,,
+R,codec,M_total,shape,D,+0.191,,
+R,codec,M_near,shape,S,+0.247,,
+R,codec,M_total,shape,S,+0.727,,
+R,codec,M_near,shape,A,-,,
+R,codec,M_total,shape,A,-,,
+E,codec,M_near,shape,C,+0.044,,
+E,codec,M_total,shape,C,+0.259,,
+E,codec,M_near,shape,D,+0.385,,
+E,codec,M_total,shape,D,+1.491,,
+E,codec,M_near,shape,S,+0.396,,
+E,codec,M_total,shape,S,+1.256,,
+E,codec,M_near,shape,A,-,,
+E,codec,M_total,shape,A,-,,
+R,trajectory,M_near,shape,C,+0.013,,
+R,trajectory,M_total,shape,C,+0.256,,
+R,trajectory,M_near,shape,D,+0.056,,
+R,trajectory,M_total,shape,D,+0.235,,
+R,trajectory,M_near,shape,S,+0.053,,
+R,trajectory,M_total,shape,S,+0.552,,
+R,trajectory,M_near,shape,A,-,,
+R,trajectory,M_total,shape,A,-,,
+E,trajectory,M_near,shape,C,+0.029,,
+E,trajectory,M_total,shape,C,+0.256,,
+E,trajectory,M_near,shape,D,+0.463,,
+E,trajectory,M_total,shape,D,+3.373,,
+E,trajectory,M_near,shape,S,+0.496,,
+E,trajectory,M_total,shape,S,+3.317,,
+E,trajectory,M_near,shape,A,-,,
+E,trajectory,M_total,shape,A,-,,

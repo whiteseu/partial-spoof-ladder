@@ -1,0 +1,9 @@
+output,operating_point,FPR_op_percent,P_ms,D_minus_P_ms,D_minus_P_ci_low,D_minus_P_ci_high,S_minus_P_ms,S_minus_P_ci_low,S_minus_P_ci_high
+CFPRF Yf 20ms,frozen EER,6.43,94.3,60.3,44,75,63.1,33,91
+PS 20ms,frozen EER,0.19,2.7,41.6,36,47,46.6,40,53
+PS 160ms,frozen EER,0.47,5.9,36.3,31,42,46.2,39,53
+SAL 160ms,frozen EER,4.82,61.8,73.8,55,92,103.5,77,130
+CFPRF Yf 20ms,FPR 1%,1.0,,34.9,25,45,39.0,25,53
+PS 20ms,FPR 1%,1.0,,195.3,175,214,226.6,205,247
+PS 160ms,FPR 1%,1.0,,63.0,55,71,82.6,72,93
+SAL 160ms,FPR 1%,1.0,,56.5,44,69,80.3,63,99

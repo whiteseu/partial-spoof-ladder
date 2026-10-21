@@ -1,0 +1,8 @@
+join,n,CFPRF_ms,CFPRF_excludes_zero,PS20_ms,PS20_excludes_zero,PS160_ms,PS160_excludes_zero,SAL_ms,SAL_excludes_zero
+voiced->voiced,272,109.8,1,76.7,1,60.4,1,146.0,1
+voiced->unvoiced,84,89.1,1,58.2,1,52.4,1,131.0,1
+unvoiced->voiced,92,48.5,0,34.1,1,26.1,1,47.4,1
+unvoiced->unvoiced,63,9.9,0,20.3,1,26.0,1,-17.1,0
+silence->voiced,73,16.8,1,10.8,1,21.4,1,17.0,1
+silence->silence,104,-1.5,0,0.5,0,3.5,0,-5.4,0
+remaining three cells,62,28.1,1,2.7,0,6.5,0,11.0,1
